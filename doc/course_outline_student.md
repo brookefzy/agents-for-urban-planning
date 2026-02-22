@@ -47,7 +47,7 @@ By the end of class, you will be able to:
 
 ### Break (10 minutes)
 
-### 5) Tutorial B: Claude Code Workflow (Comparison Demo) (25 minutes)
+### 5) Tutorial B: Coding Agent Workflow (Comparison Demo) (25 minutes)
 - Run a no-code / prompt-driven workflow for the same task
 - Compare outputs, evidence links, and low-confidence cases
 - Discuss what becomes easier vs harder to verify
