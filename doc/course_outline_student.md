@@ -30,7 +30,7 @@ By the end of class, you will be able to:
 - Core workflow parts: planning, tools, memory/context, evaluation
 - Research-grade vs exploratory outputs
 
-### 2) When Agentic AI Helps (and Hurts) (10 minutes)
+### 2) When Agentic AI Helps (and Hurts) (5 minutes)
 - Where agentic workflows save time and improve scale
 - Common risks: hallucinations, weak sources, hidden assumptions
 - When human judgment should remain primary
@@ -40,23 +40,23 @@ By the end of class, you will be able to:
 - Group discussion on validity risks and validation checks
 - Focus on what makes evidence defensible in academic/professional work
 
-### 4) Tutorial A: Python Workflow for City GDP Extraction (35 minutes)
+### 4) Tutorial A: Python Workflow for City GDP Extraction (40 minutes)
 - Build and inspect a simple agentic workflow in Python / Colab
 - Search, extract, validate, and review city-level GDP values
 - Add basic source checks and confidence labels
 
 ### Break (10 minutes)
 
-### 5) Tutorial B: Claude Code Workflow (Comparison Demo) (20 minutes)
+### 5) Tutorial B: Claude Code Workflow (Comparison Demo) (25 minutes)
 - Run a no-code / prompt-driven workflow for the same task
 - Compare outputs, evidence links, and low-confidence cases
 - Discuss what becomes easier vs harder to verify
 
-### 6) Comparison Workshop: Choosing the Right Workflow (10 minutes)
+### 6) Comparison Workshop: Choosing the Right Workflow (5 minutes)
 - Python vs no-code tradeoffs: control, speed, transparency, reproducibility
 - Use a simple decision rubric to choose a workflow for a planning task
 
-### 7) Limitations, Governance, and Next Steps (10 minutes)
+### 7) Conclusion: Limitations, Governance, and Next Steps (5 minutes)
 - Source attribution and audit trail expectations
 - Reproducibility and documentation habits
 - Practical safeguards before using AI-generated results in coursework/research
