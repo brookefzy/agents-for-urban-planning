@@ -1,0 +1,23 @@
+# Core data processing / HTTP
+pandas
+requests
+python-dotenv
+
+# HTML parsing
+beautifulsoup4
+lxml
+
+# Notebook / display helpers
+ipython
+streamlit
+
+# Optional research/search integrations used by tutorial modules
+wikipedia
+tavily-python
+
+# Optional LLM fallback providers used by tutorial modules
+openai
+anthropic
+
+# Testing (README includes pytest commands)
+pytest

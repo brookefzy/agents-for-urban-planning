@@ -5,3 +5,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .DS_Store
+tests/
+tutorials/01_city_gdp_collection/tutorial_gdp_results.csv
+'tutorials/01_city_gdp_collection/context/Screenshot 2026-03-01 at 5.26.54 PM.png'
+tutorials/01_city_gdp_collection/tutorial-1.executed.ipynb
