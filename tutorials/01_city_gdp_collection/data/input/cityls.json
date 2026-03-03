@@ -1,0 +1,510 @@
+[
+  {
+    "country_clean": "Argentina",
+    "City": "Buenos Aires"
+  },
+  {
+    "country_clean": "Australia",
+    "City": "Sydney"
+  },
+  {
+    "country_clean": "Austria",
+    "City": "Vienna"
+  },
+  {
+    "country_clean": "Bangladesh",
+    "City": "Saidpur"
+  },
+  {
+    "country_clean": "Bangladesh",
+    "City": "Rajshahi"
+  },
+  {
+    "country_clean": "Bangladesh",
+    "City": "Dhaka"
+  },
+  {
+    "country_clean": "Belgium",
+    "City": "Antwerp"
+  },
+  {
+    "country_clean": "Belgium",
+    "City": "Brussels"
+  },
+  {
+    "country_clean": "Bolivia",
+    "City": "Cochabamba"
+  },
+  {
+    "country_clean": "Botswana",
+    "City": "Gaborone"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Ilheus"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Jequie"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Palmas"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Florianopolis"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Ribeirao Preto"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Belo Horizonte"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Curitiba"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Sao Paulo"
+  },
+  {
+    "country_clean": "Brazil",
+    "City": "Rio de Janeiro"
+  },
+  {
+    "country_clean": "Canada",
+    "City": "Victoria"
+  },
+  {
+    "country_clean": "Canada",
+    "City": "Montreal"
+  },
+  {
+    "country_clean": "Canada",
+    "City": "Toronto"
+  },
+  {
+    "country_clean": "Chile",
+    "City": "Santiago"
+  },
+  {
+    "country_clean": "Taiwan",
+    "City": "Taipei"
+  },
+  {
+    "country_clean": "Hong Kong",
+    "City": "Hong Kong"
+  },
+  {
+    "country_clean": "Colombia",
+    "City": "Valledupar"
+  },
+  {
+    "country_clean": "Colombia",
+    "City": "Bogotá"
+  },
+  {
+    "country_clean": "Denmark",
+    "City": "Copenhagen"
+  },
+  {
+    "country_clean": "Ecuador",
+    "City": "Quito"
+  },
+  {
+    "country_clean": "France",
+    "City": "Le Mans"
+  },
+  {
+    "country_clean": "France",
+    "City": "Paris"
+  },
+  {
+    "country_clean": "Germany",
+    "City": "Munich"
+  },
+  {
+    "country_clean": "Germany",
+    "City": "Berlin"
+  },
+  {
+    "country_clean": "Ghana",
+    "City": "Accra"
+  },
+  {
+    "country_clean": "Greece",
+    "City": "Thessaloniki"
+  },
+  {
+    "country_clean": "Greece",
+    "City": "Athens"
+  },
+  {
+    "country_clean": "Guatemala",
+    "City": "Guatemala City"
+  },
+  {
+    "country_clean": "Hungary",
+    "City": "Budapest"
+  },
+  {
+    "country_clean": "India",
+    "City": "Hindupur"
+  },
+  {
+    "country_clean": "India",
+    "City": "Vijayawada"
+  },
+  {
+    "country_clean": "India",
+    "City": "Delhi"
+  },
+  {
+    "country_clean": "India",
+    "City": "Bangalore"
+  },
+  {
+    "country_clean": "India",
+    "City": "Kozhikode"
+  },
+  {
+    "country_clean": "India",
+    "City": "Mumbai"
+  },
+  {
+    "country_clean": "India",
+    "City": "Malegaon"
+  },
+  {
+    "country_clean": "India",
+    "City": "Pune"
+  },
+  {
+    "country_clean": "India",
+    "City": "Parbhani"
+  },
+  {
+    "country_clean": "India",
+    "City": "Jalna"
+  },
+  {
+    "country_clean": "India",
+    "City": "Jaipur"
+  },
+  {
+    "country_clean": "India",
+    "City": "Hyderabad"
+  },
+  {
+    "country_clean": "India",
+    "City": "Sitapur"
+  },
+  {
+    "country_clean": "India",
+    "City": "Kanpur"
+  },
+  {
+    "country_clean": "Indonesia",
+    "City": "Parepare"
+  },
+  {
+    "country_clean": "Indonesia",
+    "City": "Cirebon"
+  },
+  {
+    "country_clean": "Indonesia",
+    "City": "Medan"
+  },
+  {
+    "country_clean": "Indonesia",
+    "City": "Palembang"
+  },
+  {
+    "country_clean": "Indonesia",
+    "City": "Jakarta"
+  },
+  {
+    "country_clean": "Israel",
+    "City": "Tel Aviv"
+  },
+  {
+    "country_clean": "Israel",
+    "City": "Jerusalem"
+  },
+  {
+    "country_clean": "Italy",
+    "City": "Palermo"
+  },
+  {
+    "country_clean": "Italy",
+    "City": "Rome"
+  },
+  {
+    "country_clean": "Italy",
+    "City": "Milan"
+  },
+  {
+    "country_clean": "Japan",
+    "City": "Yamaguchi"
+  },
+  {
+    "country_clean": "Japan",
+    "City": "Tokyo"
+  },
+  {
+    "country_clean": "Japan",
+    "City": "Okayama"
+  },
+  {
+    "country_clean": "Japan",
+    "City": "Fukuoka"
+  },
+  {
+    "country_clean": "Japan",
+    "City": "Nagoya"
+  },
+  {
+    "country_clean": "Kenya",
+    "City": "Nairobi"
+  },
+  {
+    "country_clean": "Lithuania",
+    "City": "Kaunas"
+  },
+  {
+    "country_clean": "Malaysia",
+    "City": "Kuala Lumpur"
+  },
+  {
+    "country_clean": "Mexico",
+    "City": "Guadalajara"
+  },
+  {
+    "country_clean": "Mexico",
+    "City": "Reynosa"
+  },
+  {
+    "country_clean": "Mexico",
+    "City": "Culiacan"
+  },
+  {
+    "country_clean": "Mexico",
+    "City": "Mexico City"
+  },
+  {
+    "country_clean": "Netherlands",
+    "City": "Zwolle"
+  },
+  {
+    "country_clean": "Netherlands",
+    "City": "Amsterdam"
+  },
+  {
+    "country_clean": "New Zealand",
+    "City": "Wellington"
+  },
+  {
+    "country_clean": "New Zealand",
+    "City": "Auckland"
+  },
+  {
+    "country_clean": "Nigeria",
+    "City": "Gombe"
+  },
+  {
+    "country_clean": "Nigeria",
+    "City": "Lagos"
+  },
+  {
+    "country_clean": "Peru",
+    "City": "Lima"
+  },
+  {
+    "country_clean": "Philippines",
+    "City": "Manila"
+  },
+  {
+    "country_clean": "Philippines",
+    "City": "Bacolod"
+  },
+  {
+    "country_clean": "Philippines",
+    "City": "Cebu City"
+  },
+  {
+    "country_clean": "Philippines",
+    "City": "Metro Manila"
+  },
+  {
+    "country_clean": "Poland",
+    "City": "Warsaw"
+  },
+  {
+    "country_clean": "Republic of Korea",
+    "City": "Seoul"
+  },
+  {
+    "country_clean": "Russian Federation",
+    "City": "Berezniki"
+  },
+  {
+    "country_clean": "Russian Federation",
+    "City": "Dzerzhinsk"
+  },
+  {
+    "country_clean": "Russian Federation",
+    "City": "Astrakhan"
+  },
+  {
+    "country_clean": "Russian Federation",
+    "City": "Tyumen"
+  },
+  {
+    "country_clean": "Russian Federation",
+    "City": "Saint Petersburg"
+  },
+  {
+    "country_clean": "Russian Federation",
+    "City": "Moscow"
+  },
+  {
+    "country_clean": "Rwanda",
+    "City": "Kigali"
+  },
+  {
+    "country_clean": "Serbia",
+    "City": "Belgrade"
+  },
+  {
+    "country_clean": "Singapore",
+    "City": "Singapore"
+  },
+  {
+    "country_clean": "South Africa",
+    "City": "Capetown"
+  },
+  {
+    "country_clean": "South Africa",
+    "City": "Johannesburg"
+  },
+  {
+    "country_clean": "Spain",
+    "City": "Madrid"
+  },
+  {
+    "country_clean": "Sweden",
+    "City": "Stockholm"
+  },
+  {
+    "country_clean": "Thailand",
+    "City": "Bangkok"
+  },
+  {
+    "country_clean": "Turkey",
+    "City": "Istanbul"
+  },
+  {
+    "country_clean": "Uganda",
+    "City": "Kampala"
+  },
+  {
+    "country_clean": "Ukraine",
+    "City": "Rovno"
+  },
+  {
+    "country_clean": "Ukraine",
+    "City": "Kyiv"
+  },
+  {
+    "country_clean": "United Arab Emirates",
+    "City": "Dubai"
+  },
+  {
+    "country_clean": "United Kingdom",
+    "City": "Manchester"
+  },
+  {
+    "country_clean": "United Kingdom",
+    "City": "Sheffield"
+  },
+  {
+    "country_clean": "United Kingdom",
+    "City": "London"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Killeen"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Modesto"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Gainesville, FL"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Minneapolis"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Toledo"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Cleveland"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Portland, OR"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Raleigh"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Miami"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "San Francisco"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Boston"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Denver"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Detroit"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "New York"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Los Angeles"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Houston"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Philadelphia"
+  },
+  {
+    "country_clean": "United States of America",
+    "City": "Chicago"
+  }
+]

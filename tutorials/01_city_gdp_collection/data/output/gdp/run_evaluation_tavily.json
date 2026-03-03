@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-02-22T04:52:12.492256+00:00",
+  "dry_run": false,
+  "top_k": 5,
+  "city_sample_size": 20,
+  "search_engine": "tavily",
+  "output_suffix": "tavily",
+  "urls_per_city_for_extraction": 10,
+  "use_search_cache": true,
+  "resume": true,
+  "allow_llm_fallback": true,
+  "llm_model": "openai:gpt-4o-mini",
+  "llm_max_calls": 20,
+  "input_rows_total": 20,
+  "input_rows_queued": 17,
+  "skipped_via_checkpoint": 3,
+  "use_checkpoint": true,
+  "existing_candidate_rows_loaded": 32,
+  "candidate_rows_written": 215,
+  "final_rows_written": 20,
+  "search_env": {
+    "status": "ok",
+    "message": "tavily env ready"
+  },
+  "metrics": {
+    "candidates_total": 215,
+    "candidates_passed": 18,
+    "candidates_failed": 197,
+    "failure_reasons": {
+      "evidence_missing": 191,
+      "year_missing": 191,
+      "value_missing": 196,
+      "per_capita_too_low": 1
+    },
+    "final_rows": 20,
+    "weighted_quality_score_note": "provisional_source_tier_weights_v1"
+  },
+  "llm_calls_used": 0,
+  "notes": [
+    "Workflow skeleton active: retrieval/extraction/normalization implementation remains in-progress."
+  ]
+}
