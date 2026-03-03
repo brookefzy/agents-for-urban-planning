@@ -9,9 +9,7 @@ You are assisting with an urban planning research workflow. Find city-level GDP 
 Cities:
 - Zurich, Switzerland
 - Nairobi, Kenya
-- Ho Chi Minh City, Vietnam
-- Auckland, New Zealand
-- Oslo, Norway
+- Berlin, Germany
 
 Return a structured table with these columns:
 - city

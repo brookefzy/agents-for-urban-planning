@@ -10,9 +10,7 @@ Task:
 Find city-level GDP values (not national GDP) for these cities:
 - Zurich, Switzerland
 - Nairobi, Kenya
-- Ho Chi Minh City, Vietnam
-- Auckland, New Zealand
-- Oslo, Norway
+- Berlin, Germany
 
 Required workflow:
 1. First produce a short plan and validation checklist.
@@ -37,6 +35,3 @@ Important constraints:
 - If evidence is weak or missing, do not guess.
 - Be explicit about uncertainty and missingness.
 ```
-
-## Teaching Note
-The point is not just a better answer. The point is a more defensible process with visible planning, triage, and validation.

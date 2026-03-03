@@ -9,9 +9,7 @@ Find the 2024 GDP for these cities and return a table with city, country, GDP, a
 Cities:
 - Zurich, Switzerland
 - Nairobi, Kenya
-- Ho Chi Minh City, Vietnam
-- Auckland, New Zealand
-- Oslo, Norway
+- Berlin, Germany
 ```
 
 ## What To Look For
