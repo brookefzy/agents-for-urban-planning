@@ -24,26 +24,16 @@ Existing files are preserved for backward compatibility while migration continue
   `tutorials/01_city_gdp_collection/`
 - This is required so local imports like `agents.*`, `tools.*`, and `utils.*` work correctly.
 
-### Option A (Recommended): Open in Colab + Clone the Repo
+### Open in Colab + Clone the Repo
 1. Open `tutorial-1.ipynb` in Google Colab (from GitHub or upload).
 2. In a new Colab cell, clone the repo and move into the tutorial folder:
    ```python
-   !git clone https://github.com/<your-org-or-user>/agents-for-urban-planning.git /content/agents-for-urban-planning
+   !git clone https://github.com/brookefzy/agents-for-urban-planning.git /content/agents-for-urban-planning
    %cd /content/agents-for-urban-planning/tutorials/01_city_gdp_collection
    !pip install -r requirements.txt
    ```
 3. Re-open or run the notebook cells from that working directory.
 
-### Option B: Use Google Drive (if students are given a copy)
-1. Upload the full repo (or at minimum the full `01_city_gdp_collection/` folder) to Google Drive.
-2. Mount Drive in Colab and change into the tutorial folder:
-   ```python
-   from google.colab import drive
-   drive.mount('/content/drive')
-   %cd /content/drive/MyDrive/<path-to-repo>/tutorials/01_city_gdp_collection
-   !pip install -r requirements.txt
-   ```
-3. Run `tutorial-1.ipynb` from there.
 
 ### Colab Secrets / API Keys
 - In Colab, store keys in **Secrets** (left sidebar > key icon), then add:
