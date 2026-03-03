@@ -13,11 +13,6 @@ Students will compare three runs of the same city GDP task:
 
 The goal is to make the difference between **prompting** and **workflow discipline** visible.
 
-## Teaching Goals
-- Demonstrate how agent behavior changes when constraints and process rules are explicit.
-- Show the value of planning, source triage, and validation in a no-code workflow.
-- Surface the tradeoffs between speed and methodological control.
-- Prepare students to compare this approach with the Python workflow from Tutorial 1.
 
 ## Learning Goals (Student-Facing)
 By the end of this tutorial, students should be able to:
@@ -30,15 +25,6 @@ By the end of this tutorial, students should be able to:
 - `prompts/`: sample prompts used in the live demo
 - `skills/`: compact tutorial skills (`SKILL.md`) to guide agent behavior
 - `examples/`: optional comparison rubric and note templates for classroom discussion
-
-## Recommended Classroom Flow (25-35 minutes)
-1. `3-5 min` Explain what skills are in an agent environment (reusable process instructions, not just prompts).
-2. `3-5 min` Show skill setup and examples (including `superpowers` skills).
-3. `4-5 min` Run `prompts/01_baseline_prompt.md` and inspect weaknesses.
-4. `4-5 min` Run `prompts/02_research_grade_prompt.md` and compare improvements.
-5. `6-8 min` Run `prompts/03_skill_guided_prompt.md` while loading the tutorial skills.
-6. `3-4 min` Use `examples/comparison_rubric.md` to score outputs.
-7. `2-3 min` Debrief: What improved? What still needs manual review or code?
 
 ## Skills in Agent Environments (Mini-Explanation)
 In this tutorial, a **skill** is a reusable set of instructions (usually a `SKILL.md` file) that teaches the agent how to approach a task consistently.
