@@ -3,10 +3,13 @@
 ## Course Overview
 This 2-hour class introduces how to use and evaluate agentic AI workflows for urban planning and transportation research. We will focus on practical use, research rigor, and when these tools should (and should not) be used.
 
-## Who This Class Is For
-- Master of City Planning (MCP) students
-- Students working on planning, transportation, or urban data projects
-- Anyone curious about using AI workflows for research tasks
+## Suggested Preparation
+- Bring a laptop with access to Google Colab
+- Register an account for any coding agents (Claude Code, Codex or Gemini)
+- Email `yuan@ready.net` with subject `Urban AI Seminar` to get an OpenAI API
+- Go to `https://www.tavily.com/` to register a free account and get an API (up to 1000 search free)
+- [Optional] get a Github account
+- Link to Tutorials: `https://github.com/brookefzy/agents-for-urban-planning/tree/main`
 
 ## What You Should Know Before Class
 - Basic Python (variables, loops, functions)
@@ -51,12 +54,6 @@ By the end of class, you will be able to:
 - A comparison critique of Python vs Claude Code (or Codex, Gemini) workflows
 - A workflow selection checklist for your own projects
 
-## Suggested Preparation
-- Bring a laptop with access to Google Colab
-- Register an account for any coding agents (Claude Code, Codex or Gemini)
-- Email `yuan@ready.net` with subject `Urban AI Seminar` to get OpenAI API
-- Go to `https://www.tavily.com/` to register a free account and get an API
-- [Optional] get a Github account
 
 ## Important Note
 This class emphasizes evaluation and research rigor, not just automation speed. The goal is to learn how to use AI workflows responsibly in planning research.
