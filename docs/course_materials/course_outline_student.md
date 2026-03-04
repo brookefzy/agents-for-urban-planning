@@ -1,5 +1,7 @@
 # AI Agentic Workflow for Urban Planning (Student Outline)
 
+Date: 2026-03-05
+
 ## Course Overview
 This 2-hour class introduces how to use and evaluate agentic AI workflows for urban planning and transportation research. We will focus on practical use, research rigor, and when these tools should (and should not) be used.
 
