@@ -1,12 +1,4 @@
-# GDP Collection WIP Scaffold
-
-This folder is initialized to match `AGENTS.md` v2.2 structure for the WAT pipeline:
-- `agents/`
-- `tools/`
-- `workflows/`
-- `utils/`
-- `.tmp/`
-
+# GDP Collection - A reflective Agentic Pipline for data collection
 
 ## Project Scope
 This tutorial builds a robust city-level GDP collection pipeline in the WAT framework (Workflow, Agents, Tools), as a refactor of `_script/04_gdp_collection`.
@@ -73,6 +65,13 @@ graph LR
     X --> V[Log Failure Trace]
     V --> S
 ```
+# Folder structure
+This folder is initialized to match `AGENTS.md` v2.2 structure for the WAT pipeline:
+- `agents/`
+- `tools/`
+- `workflows/`
+- `utils/`
+- `.tmp/`
 
 ## Python Environment Setup
 - Create a virtual environment (from this tutorial folder):
