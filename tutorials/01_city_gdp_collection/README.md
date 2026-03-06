@@ -137,7 +137,7 @@ This folder is initialized to match `AGENTS.md` v2.2 structure for the WAT pipel
 1. Open terminal and go to this folder:
    `cd tutorials/01_city_gdp_collection`
 2. Activate environment:
-   `source ~/.bash_profile && conda activate openai312`
+   `source .venv/bin/activate`
 3. Install dependencies (first run or after updates):
    `python -m pip install -r requirements.txt`
 4. Add API keys in local env file:
