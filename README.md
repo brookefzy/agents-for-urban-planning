@@ -1,6 +1,6 @@
 # Agents for Urban Planning
 
-Course tutorials and reference materials for building agentic workflows in urban-planning tasks.
+Tutorials and reference materials for building agentic workflows in urban-planning tasks.
 DATE: 2026-03-05
 Author: Yuan
 
