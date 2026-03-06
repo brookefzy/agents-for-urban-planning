@@ -1,7 +1,7 @@
 # GDP Collection - A reflective Agentic Pipline for data collection
 
 ## Project Scope
-This tutorial builds a robust city-level GDP collection pipeline in the WAT framework (Workflow, Agents, Tools), as a refactor of `_script/04_gdp_collection`.
+This tutorial builds a robust city-level GDP collection pipeline in the WAT framework (Workflow, Agents, Tools).
 
 Scope includes:
 - Processing city-country inputs and metro population metadata.
