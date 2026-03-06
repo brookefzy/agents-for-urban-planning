@@ -7,7 +7,72 @@ This folder is initialized to match `AGENTS.md` v2.2 structure for the WAT pipel
 - `utils/`
 - `.tmp/`
 
-Existing files are preserved for backward compatibility while migration continues.
+
+## Project Scope
+This tutorial builds a robust city-level GDP collection pipeline in the WAT framework (Workflow, Agents, Tools), as a refactor of `_script/04_gdp_collection`.
+
+Scope includes:
+- Processing city-country inputs and metro population metadata.
+- Multi-query retrieval and candidate ranking with source-tier awareness.
+- GDP fact extraction (`gdp_raw`, `year`, `currency`, `gdp_type`, `geo_level`) with bounded LLM fallback for ambiguous cases.
+- Historical FX normalization to USD aligned with the data year.
+- Validation-first gates for geography, evidence traceability, year, value range, plausibility, currency/FX, and source quality.
+- Auditable outputs:
+  - `data/output/gdp/r_city_gdp_candidates.csv`
+  - `data/output/gdp/city_gdp_results.csv`
+  - `data/output/gdp/run_evaluation.json`
+
+## Learning Outcomes
+By the end of this tutorial, you should be able to:
+- Structure an agentic pipeline with clear workflow, agent, and deterministic tool responsibilities.
+- Design retrieval and ranking logic for city-level economic data with source-quality awareness.
+- Extract and normalize GDP evidence into a consistent schema with year-aware FX conversion.
+- Apply strict validation gates to reduce extraction errors and hallucination risk.
+- Implement checkpoint/resume logic for scalable, iterative city-level runs.
+- Interpret run metrics and audit artifacts to debug quality issues and improve pipeline reliability.
+- Choose when deterministic logic is sufficient and when bounded LLM usage is justified.
+
+```mermaid
+%%{init: {"flowchart": {"nodeSpacing": 18, "rankSpacing": 20, "diagramPadding": 4, "useMaxWidth": true}, "themeVariables": {"fontSize": "12px"}}}%%
+graph LR
+    A[Input City Country] --> B[Build Query Pack]
+    B --> C[Primary Retrieval]
+    C --> D{Intent Quota Met}
+    D -- No --> E[Adaptive Expansion]
+    D -- Yes --> F[Rank And Score]
+    E --> F
+
+    F --> G[Fetch And Cache]
+    G --> H{Research Mode Enabled}
+
+    H -- Yes --> I{City Mention Found}
+    I -- Yes --> J[LLM First Extraction]
+    I -- No --> K[Parser Extraction]
+    J --> L{LLM Fact Found}
+    L -- No --> K
+
+    H -- No --> K
+    K --> M{Parser Fact Found}
+    M -- No --> N{Fallback Allowed And Budget}
+    N -- Yes --> O[LLM Fallback Extraction]
+    N -- No --> X[Reject Candidate]
+
+    L -- Yes --> P[Normalize And FX]
+    M -- Yes --> P
+    O --> P
+
+    P --> Q{Validation Gates Pass}
+    Q -- Yes --> R[Accept Candidate]
+    Q -- No --> X
+
+    R --> S{Valid Row Exists}
+    S -- Yes --> T[Select Final Row]
+    S -- No --> U[Downscaled Fallback InReview]
+    U --> T
+
+    X --> V[Log Failure Trace]
+    V --> S
+```
 
 ## Python Environment Setup
 - Create a virtual environment (from this tutorial folder):
@@ -50,9 +115,9 @@ Existing files are preserved for backward compatibility while migration continue
   ```
 - You should see files/folders like `agents/`, `tools/`, `utils/`, and `tutorial-1.ipynb`.
 
-## Run
+## Run scripts locally
 - Run these commands from `tutorials/01_city_gdp_collection/` (the tutorial folder).
-- Activate env: `source ~/.bash_profile && conda activate openai312`
+- Activate env: `source .venv/bin/activate`
 - Run tests: `PYTHONPATH="." pytest tests -q`
 - Run deterministic robustness regression harness:
   `PYTHONPATH="." pytest tests/regression/test_golden_cities.py -q`
