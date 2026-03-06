@@ -150,6 +150,10 @@ This folder is initialized to match `AGENTS.md` v2.2 structure for the WAT pipel
    `streamlit run streamlit_app.py`
 6. Open the local URL shown by Streamlit (typically `http://localhost:8501`).
 
+Demo screenshot:
+
+![City GDP Collection Demo](context/app_screenshot.png)
+
 App usage:
 - Click `Download Sample CSV Template` to get the expected file format.
 - Upload a CSV with required columns: `city,country`.
