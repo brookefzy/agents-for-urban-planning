@@ -1,4 +1,7 @@
 # GDP Collection - A reflective Agentic Pipline for data collection
+Demo screenshot:
+
+![City GDP Collection Demo](context/app_screenshot.png)
 
 ## Project Scope
 This tutorial builds a robust city-level GDP collection pipeline in the WAT framework (Workflow, Agents, Tools).
@@ -23,6 +26,9 @@ By the end of this tutorial, you should be able to:
 - Implement checkpoint/resume logic for scalable, iterative city-level runs.
 - Interpret run metrics and audit artifacts to debug quality issues and improve pipeline reliability.
 - Choose when deterministic logic is sufficient and when bounded LLM usage is justified.
+
+## A Reflective Agentic Process
+![Reflective Agentic Pipeline](context/relfective_pipeline.png)
 
 ```mermaid
 %%{init: {"flowchart": {"nodeSpacing": 18, "rankSpacing": 20, "diagramPadding": 4, "useMaxWidth": true}, "themeVariables": {"fontSize": "12px"}}}%%
@@ -150,9 +156,7 @@ This folder is initialized to match `AGENTS.md` v2.2 structure for the WAT pipel
    `streamlit run streamlit_app.py`
 6. Open the local URL shown by Streamlit (typically `http://localhost:8501`).
 
-Demo screenshot:
 
-![City GDP Collection Demo](context/app_screenshot.png)
 
 App usage:
 - Click `Download Sample CSV Template` to get the expected file format.
