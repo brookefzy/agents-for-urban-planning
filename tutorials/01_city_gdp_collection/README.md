@@ -24,8 +24,6 @@ By the end of this tutorial, you should be able to:
 - Interpret run artifacts to audit and debug pipeline behavior.
 
 ## Reflective agentic pipeline
-Use this image to explain the core concept in class or online:
-
 ![Reflective Agentic Pipeline](context/reflective_pipeline.png)
 
 Plain-language flow:
