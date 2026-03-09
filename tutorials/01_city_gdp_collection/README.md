@@ -28,7 +28,7 @@ By the end of this tutorial, you should be able to:
 - Choose when deterministic logic is sufficient and when bounded LLM usage is justified.
 
 ## A Reflective Agentic Process
-![Reflective Agentic Pipeline](context/relfective_pipeline.png)
+![Reflective Agentic Pipeline](context/reflective_pipeline.png)
 
 ```mermaid
 %%{init: {"flowchart": {"nodeSpacing": 18, "rankSpacing": 20, "diagramPadding": 4, "useMaxWidth": true}, "themeVariables": {"fontSize": "12px"}}}%%
